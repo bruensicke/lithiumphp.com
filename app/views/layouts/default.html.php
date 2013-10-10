@@ -22,10 +22,10 @@
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">
 				<li>
-					<a href="http://lithify.me/docs/manual/quickstart">Quickstart</a>
+					<a href="http://lithify.me/docs/manual/quickstart">Overview</a>
 				</li>
 				<li>
-					<a href="http://lithify.me/docs/manual">Manual</a>
+					<a href="<?=$this->url('/docs'); ?>">Docs</a>
 				</li>
 				<li>
 					<a href="http://lithify.me/docs/lithium">API</a>
@@ -34,7 +34,13 @@
 					<a href="http://lithify.me/">More</a>
 				</li>
 			</ul>
-			<a href="http://lithify.me/"><h3>&#10177;</h3></a>
+			<a href="<?=$this->url('/'); ?>" class="pull-left">
+				<?= $this->html->image('logo.png', array('style' => 'padding-right: 5px')); ?>
+			</a>
+
+			<a href="<?=$this->url('/'); ?>" class="brand">
+				<h1>lithiumphp</h1>
+			</a>
 		</div>
 
 		<hr>
