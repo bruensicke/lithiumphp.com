@@ -1,0 +1,6 @@
+[submodule "libraries/lithium"]
+	path = libraries/lithium
+	url = https://github.com/UnionOfRAD/lithium.git
+[submodule "libraries/radium"]
+	path = libraries/radium
+	url = https://github.com/bruensicke/radium.git
