@@ -7,3 +7,6 @@
 [submodule "libraries/li3_markdown"]
 	path = libraries/li3_markdown
 	url = https://github.com/bruensicke/li3_markdown.git
+[submodule "libraries/li3_quality"]
+	path = libraries/li3_quality
+	url = https://github.com/UnionOfRAD/li3_quality.git
