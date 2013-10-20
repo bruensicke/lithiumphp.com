@@ -4,3 +4,6 @@
 [submodule "libraries/radium"]
 	path = libraries/radium
 	url = https://github.com/bruensicke/radium.git
+[submodule "libraries/li3_markdown"]
+	path = libraries/li3_markdown
+	url = https://github.com/bruensicke/li3_markdown.git
