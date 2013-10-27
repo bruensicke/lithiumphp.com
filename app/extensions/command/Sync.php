@@ -32,7 +32,7 @@ class Sync extends \lithium\console\Command {
 			$this->_syncAll();
 			return true;
 		}
-		if ($source == 'list') {
+		if ($source === 'list') {
 			return $this->_listSources();
 		}
 
@@ -55,7 +55,7 @@ class Sync extends \lithium\console\Command {
 			'default' => 'q',
 		);
 		$res = $this->in('which source?', $options);
-		if ($res == 'q' || !isset($sources[$res-1])) {
+		if ($res === 'q' || !isset($sources[$res-1])) {
 			$this->stop(1);
 		}
 		$source = $sources[$res-1];
@@ -81,7 +81,7 @@ class Sync extends \lithium\console\Command {
 			$this->out('{:yellow}skipped.{:end}', false);
 			return true;
 		}
-		if(!Sources::sync($source)) {
+		if (!Sources::sync($source)) {
 			$this->out('{:error}failed.{:end}', false);
 			return false;
 		}
