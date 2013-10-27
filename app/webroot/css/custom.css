@@ -1,0 +1,22 @@
+.nav-docs {
+border-right: 1px solid #DFDFDF;
+margin-bottom: 20px;
+}
+.nav-docs  .nav-docs {
+border-right: 0;
+}
+ul.nav-docs li {
+padding: 0;
+}
+.nav-docs .nav-header {
+font-size: 18px;
+font-weight: 500;
+color: #45545f;
+text-shadow: none;
+text-transform: none;
+margin-bottom: 0.5em;
+}
+.nav-docs>li>a {
+padding: 3px 8px;
+}
+
