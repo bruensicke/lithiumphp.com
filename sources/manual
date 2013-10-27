@@ -1,0 +1,5 @@
+name: manual
+description: "This is your handbook to building Lithium applications. It takes you through getting started, and provides an overview of all aspects of application-building that are covered by the framework."
+path: /en
+url: https://github.com/UnionOfRAD/manual.git
+type: manual

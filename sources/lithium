@@ -1,0 +1,4 @@
+name: lithium
+description: "Lithium is a light, fast, and highly configurable framework for PHP 5.3+"
+url: https://github.com/UnionOfRAD/lithium.git
+type: documentation
