@@ -20,6 +20,7 @@ Router::connect('/{:finder:(manual|docs|libraries)}', 'Docs::index');
 Router::connect('/{:finder:(manual|docs|libraries)}/{:name}/{:args}', 'Docs::view');
 
 Router::connect('/pages/{:args}', 'Pages::view');
+Router::connect('/{:args:(about|contact|contributors|developers|faq|features)}', 'Pages::view');
 
 /**
  * Add the testing routes. These routes are only connected in non-production environments, and allow
