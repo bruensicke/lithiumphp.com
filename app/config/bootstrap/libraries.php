@@ -8,6 +8,7 @@
 
 define('LITHIUM_APP_PATH', dirname(dirname(__DIR__)));
 define('LITHIUM_LIBRARY_PATH', dirname(LITHIUM_APP_PATH) . '/libraries');
+define('POSTS_PATH', dirname(LITHIUM_APP_PATH) . '/posts');
 
 if (!include LITHIUM_LIBRARY_PATH . '/lithium/core/Libraries.php') {
 	$message  = "Lithium core could not be found.  Check the value of LITHIUM_LIBRARY_PATH in ";
