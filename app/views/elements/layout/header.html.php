@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-5 col-md-offset-2 col-sm-6 col-sm-offset-1">
 
-				<?= $this->_render('element', 'layout/search'); ?>
+				<?php # echo $this->_render('element', 'layout/search'); ?>
 
 			</div>
 		</div>

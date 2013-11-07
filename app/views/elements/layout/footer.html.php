@@ -38,7 +38,7 @@
 							<li><a href="http://lithify.me/">Official Homepage</a></li>
 							<li><a href="http://lithify.me/docs">Lithium Documentation</a></li>
 							<li><a href="http://lithify.me/docs/manual/quickstart">Lithium Quickstart</a></li>
-							<li><a href="Lithium101.com">Lithium101 - Community website</a></li>
+							<li><a href="http://lithium101.com/">Lithium101 - Community website</a></li>
 						</ul>
 					</div>
 				</div>

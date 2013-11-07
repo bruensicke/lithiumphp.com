@@ -2,123 +2,113 @@
 <?= $this->html->script(array('easing', 'jquery.flexslider-min.js'), array('inline' => false)); ?>
 
 <div class="full-slider">
-		<!-- Slider (Flex Slider) -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="flexslider">
-							<ul class="slides">
+							<!-- Slider content -->
+							<!-- Use the class "flex-back" to add background inside flex slider -->
+							<div class="flex-caption">
+								<div class="col-l">
 
-								<li>
+									<h2>What Do You Develop Today</h2>
+									<h6>Start today writing your first lithium application. You will imediately notice how easy this is.</h6>
 
-									<!-- Slider content -->
-									<div class="flex-caption">
-										<!-- Left column -->
-										<div class="col-l">
-
-												<h2>What Do  Started Today</h2>
-
-												<h6>Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</h6>
-
-
-										</div>
-										<!-- Right column -->
-										<div class="col-r">
-
-											<!-- Use the class "flex-back" to add background inside flex slider -->
-
-												<h5>Nulla Vitae Rhoncus</h5>
-												<p>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
+								</div>
+								<div class="col-r">
 
 
-											<!-- Button -->
-											<div class="button">
-												<a href="#"><i class="icon-circle-arrow-down"></i> Download Our Software Today</a>
-											</div>
+									<h5>Nulla Vitae Rhoncus</h5>
+									<p>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
 
-										</div>
+									<div class="button">
+										<a href="https://github.com/UnionOfRAD/lithium/releases"><i class="icon-circle-arrow-down"></i> Download lithium</a>
 									</div>
 
-								</li>
+								</div>
+							</div>
 
-								<li>
-									<div class="flex-caption flex-center">
-										<h2>Don't Miss This Theme</h2>
+						</li>
+						<li>
+							<div class="flex-caption flex-center">
+								<h2>Don't Miss This Theme</h2>
 
-										<p>Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo. Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. </p>
+								<p>Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo. Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. </p>
 
-											<!-- Button -->
-											<div class="button">
-												<a href="#">Buy It Now</a>
-											</div>
-
-									</div>
-								</li>
-
-
-								<li>
-
-									<!-- Slider content -->
-									<div class="flex-caption">
-										<!-- Left column -->
-										<div class="col-l">
-											<h2>Get Started Today</h2>
-											<h6>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit.</h6>
-
-											<!-- Button -->
-											<div class="button">
-												<a href="#"><i class="icon-circle-arrow-down"></i> Download</a>
-											</div>
-
-										</div>
-										<!-- Right column -->
-										<div class="col-r">
-
-											<!-- Use the class "flex-back" to add background inside flex slider -->
-											<div class="flex-back">
-												<h5>Nulla Vitae Rhoncus</h5>
-												<p>Suspendisse potenti. Nulla vitae cursus leo. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
-											</div>
-
-										</div>
+									<!-- Button -->
+									<div class="button">
+										<a href="#">Buy It Now</a>
 									</div>
 
-								</li>
+							</div>
+						</li>
 
 
-								<li>
+						<li>
 
-									<!-- Slider content -->
-									<div class="flex-caption">
-										<!-- Left column -->
-										<div class="col-l">
-											<h2>Someone Started Today</h2>
-											<h6>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit.Vivamus vel ultricies elit.</h6>
+							<!-- Slider content -->
+							<div class="flex-caption">
+								<!-- Left column -->
+								<div class="col-l">
+									<h2>Get Started Today</h2>
+									<h6>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit.</h6>
 
-
-
-										</div>
-										<!-- Right column -->
-										<div class="col-r">
-
-											<!-- Use the class "flex-back" to add background inside flex slider -->
-
-												<h2>Nulla Vitae Rhoncus</h2>
-												<p>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
-
-
-										</div>
+									<!-- Button -->
+									<div class="button">
+										<a href="#"><i class="icon-circle-arrow-down"></i> Download</a>
 									</div>
 
-								</li>
+								</div>
+								<!-- Right column -->
+								<div class="col-r">
+
+									<!-- Use the class "flex-back" to add background inside flex slider -->
+									<div class="flex-back">
+										<h5>Nulla Vitae Rhoncus</h5>
+										<p>Suspendisse potenti. Nulla vitae cursus leo. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
+									</div>
+
+								</div>
+							</div>
+
+						</li>
 
 
-							</ul>
-						</div>
-					</div>
+						<li>
+
+							<!-- Slider content -->
+							<div class="flex-caption">
+								<!-- Left column -->
+								<div class="col-l">
+									<h2>Someone Started Today</h2>
+									<h6>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit.Vivamus vel ultricies elit.</h6>
+
+
+
+								</div>
+								<!-- Right column -->
+								<div class="col-r">
+
+									<!-- Use the class "flex-back" to add background inside flex slider -->
+
+										<h2>Nulla Vitae Rhoncus</h2>
+										<p>Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Nulla vitae cursus leo.</p>
+
+
+								</div>
+							</div>
+
+						</li>
+
+
+					</ul>
 				</div>
 			</div>
+		</div>
+	</div>
 </div>
 
 <script type="text/javascript">
