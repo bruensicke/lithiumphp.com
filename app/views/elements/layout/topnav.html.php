@@ -12,7 +12,7 @@
 		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 			<ul class="nav navbar-nav">
 				<li><a href="<?= $this->url('/'); ?>">Home</a></li>
-				<li><a href="<?= $this->url('/pages/features'); ?>">Features</a></li>
+				<li><a href="<?= $this->url('/features'); ?>">Features</a></li>
 				<li><a href="<?= $this->url('/posts'); ?>">News</a></li>
 				<li><a href="<?= $this->url('/manual'); ?>">Manual</a></li>
 				<li><a href="<?= $this->url('/docs'); ?>">Documentation</a></li>
