@@ -59,8 +59,8 @@
 		<div class="row">
 			<div class="col-md-12">
 					<div class="copy">
-						<h6>lithiumphp.com</h6>
-						<p>Copyright &copy; <?= $this->html->link('brünsicke.com GmbH', 'http://bruensicke.com/'); ?> - <a href="<?= $this->url('/'); ?>">Home</a> | <a href="<?= $this->url('/about'); ?>">About</a> | <a href="<?= $this->url('/faq'); ?>">FAQ</a> | <a href="<?= $this->url('/contact'); ?>">Contact Us</a></p>
+						<p><a href="<?= $this->url('/'); ?>">Home</a> | <a href="<?= $this->url('/about'); ?>">About</a> | <a href="<?= $this->url('/faq'); ?>">FAQ</a> | <a href="<?= $this->url('/contact'); ?>">Contact Us</a></p>
+						<h7>lithiumphp.com is proudly sponsored by <?= $this->html->link('brünsicke.com GmbH', 'http://bruensicke.com/'); ?></h7>
 					</div>
 			</div>
 		</div>
