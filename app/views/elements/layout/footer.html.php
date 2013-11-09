@@ -58,10 +58,13 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12">
-					<div class="copy">
-						<p><a href="<?= $this->url('/'); ?>">Home</a> | <a href="<?= $this->url('/about'); ?>">About</a> | <a href="<?= $this->url('/faq'); ?>">FAQ</a> | <a href="<?= $this->url('/contact'); ?>">Contact Us</a></p>
-						<h7>lithiumphp.com is proudly sponsored by <?= $this->html->link('brünsicke.com GmbH', 'http://bruensicke.com/'); ?></h7>
-					</div>
+				<div class="pull-right" style="margin-top: 15px">
+					<a href="http://lithify.me/"><?= $this->html->image('lithium.gif'); ?></a><br />
+				</div>
+				<div class="copy">
+					<p><a href="<?= $this->url('/'); ?>">Home</a> | <a href="<?= $this->url('/about'); ?>">About</a> | <a href="<?= $this->url('/faq'); ?>">FAQ</a> | <a href="<?= $this->url('/contact'); ?>">Contact Us</a></p>
+					<h7>lithiumphp.com is proudly sponsored by <span class="bruensicke"><a href="http://bruensicke.com/"><?= $this->html->image('bruensicke.png'); ?><span>brünsicke.com GmbH</span></a>.</h7>
+				</div>
 			</div>
 		</div>
 	<div class="clearfix"></div>
