@@ -1190,6 +1190,10 @@ transition:background 1s ease;
 text-align:center;
 }
 
+i.github{
+background:#7b7b7b;
+}
+
 i.facebook{
 background:#3c5b9b;
 }
