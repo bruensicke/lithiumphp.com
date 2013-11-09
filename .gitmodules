@@ -10,3 +10,6 @@
 [submodule "libraries/li3_quality"]
 	path = libraries/li3_quality
 	url = https://github.com/UnionOfRAD/li3_quality.git
+[submodule "libraries/li3_mustache"]
+	path = libraries/li3_mustache
+	url = https://github.com/bruensicke/li3_mustache.git
